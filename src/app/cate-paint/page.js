@@ -4,17 +4,17 @@ import painting1 from "@/image/1.png"
 
 export default function CatePaint() {
   return (
-    <div className="w-full h-full bg-blue-200 flex flex-col justify-start items-center rounded-2xl py-12 px-6">
+    <div className="w-full h-full bg-[#DFF3FF] flex flex-col justify-start items-center rounded-2xl py-12 px-6">
 
       {/* 用大括號包起來代表要執行程式碼 */}
       {/* <Image src={painting1}></Image> */}
 
       <div className="flex flex-col w-full">
         <h1 className="text-2xl font-bold">
-          繪畫作品
+          圖們
         </h1>
         <h3>
-          介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹
+          因為我很喜歡畫畫，
         </h3>
       </div>
 

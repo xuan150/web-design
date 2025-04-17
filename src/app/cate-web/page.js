@@ -3,7 +3,7 @@ import AvatarImg from "@/../public/avatar.jpg";
 
 export default function CateWeb() {
   return (
-    <div className="w-full h-screen bg-blue-200 flex justify-center items-center">
+    <div className="w-full h-full bg-[#DFF3FF] flex justify-center items-center">
       <p>
         cate-web
       </p>

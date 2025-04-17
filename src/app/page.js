@@ -34,7 +34,7 @@ export default function Home() {
 
   return (
     // 方法一:預設隱藏(invisible)，大於一定尺寸後(sm:invisible)右邊的頁面出現
-    <div className="relative overflow-hidden w-full h-full flex bg-blue-200  justify-center items-center rounded-2xl">
+    <div className="relative overflow-hidden w-full h-full flex bg-[#DFF3FF]  justify-center items-center rounded-2xl">
       <div
         className="absolute top-0 left-0 w-[100px] h-[100px] rounded-full bg-[#ffffff] blur-[50px] transition-all duration-450 
         ease-out pointer-events-none -translate-0.5"

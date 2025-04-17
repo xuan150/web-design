@@ -34,28 +34,28 @@ export default function RootLayout({ children }) {
           {/* <div className="min-w-[320px] w-full sm:w-[320px] h-[90vh] bg-blue-200 rounded-4xl flex justify-start items-center  */}
           {/* flex-col p-[30px] pt-[60px] overflow-y-auto overflow-x-hidden"> */}
 
-          <div className="min-w-[320px] w-full sm:w-[320px] h-full rounded-2xl bg-blue-200 flex 
+          <div className="min-w-[320px] w-full sm:w-[320px] h-full rounded-2xl bg-[#DFF3FF] flex 
           justify-start items-center flex-col p-[30px] pt-[80px] overflow-y-auto overflow-x-hidden">
 
             <img src={AvatarImg.src} className="w-[80px] h-[80px] rounded-full"></img>
             {/* Image src={AvatarImg} alt="avatar" className="w-[80px] h-[80px] justify-center items-center" */}
-            <h1 className="mt-2">張芷瑄</h1>
+            <h1 className="mt-4 text-[#334155] text-2xl font-semibold">張芷瑄</h1>
             <p className="max-w-[380px] text-center">
               簡介簡介
             </p>
 
             {/* 社群連結*/}
             {/* my是margin在y軸的意思 */}
-            <div className="flex gap-2 my-4">
+            <div className="flex gap-3 my-4">
               <a href="https://www.instagram.com/littles0209/" target="_blank">
                 {/* <div className="bg-gray-200 w-[40px] h-[40px] rounded-4xl"></div> */}
-                <div><Image src={Insta} height={40} width={40} alt="my instragram" /></div>
+                <div><Image src={Insta} height={24} width={24} alt="my instragram" /></div>
               </a>
               <a href="https://google.com" target="_blank">
                 {/* <div className="bg-gray-200 w-[40px] h-[40px] rounded-4xl"></div> */}
-                <div><Image src={Web} height={40} width={40} alt="my website" /></div>
+                <div><Image src={Web} height={24} width={24} alt="my website" /></div>
               </a>
-              <a href="https://google.com" target="_blank">
+              {/* <a href="https://google.com" target="_blank">
                 <div className="bg-gray-200 w-[40px] h-[40px] rounded-4xl"></div>
               </a>
               <a href="https://google.com" target="_blank">
@@ -63,36 +63,36 @@ export default function RootLayout({ children }) {
               </a>
               <a href="https://google.com" target="_blank">
                 <div className="bg-gray-200 w-[40px] h-[40px] rounded-4xl"></div>
-              </a>
+              </a> */}
             </div>
 
             {/* 頁面切換*/}
             {/* flex-col轉換排列方式 */}
             <div className="w-full flex flex-col gap-2">
               <Link href="/">
-                <div className="w-full h-[84px] bg-gray-300 rounded-2xl">home</div>
+                <div className="w-full h-[84px] bg-[#F8FAFC] rounded-2xl">home</div>
               </Link>
 
               <Link href="/about">
                 { /*<div className="w-full h-[84px] bg-gray-300 rounded-2xl">about</div> */}
-                <div className={`w-full h-[84px] bg-gray-300 rounded-2xl`}>about</div>
+                <div className={`w-full h-[84px] bg-[#F8FAFC] rounded-2xl`}>about</div>
               </Link>
 
               <Link href="/cate-web">
-                <div className="w-full h-[84px] bg-gray-300 rounded-2xl">cate-web</div>
+                <div className="w-full h-[84px] bg-[#F8FAFC] rounded-2xl">cate-web</div>
               </Link>
 
               <Link href="/cate-paint">
-                <div className="w-full h-[84px] bg-gray-300 rounded-2xl">cate-paint</div>
+                <div className="w-full h-[84px] bg-[#F8FAFC] rounded-2xl">cate-paint</div>
               </Link>
 
-              <div className="w-full h-[84px] bg-gray-300 rounded-2xl">作品分類三</div>
+              {/* <div className="w-full h-[84px] bg-gray-300 rounded-2xl">作品分類三</div>
               <div className="w-full h-[84px] bg-gray-300 rounded-2xl">作品分類一</div>
               <div className="w-full h-[84px] bg-gray-300 rounded-2xl">作品分類二</div>
               <div className="w-full h-[84px] bg-gray-300 rounded-2xl">作品分類三</div>
               <div className="w-full h-[84px] bg-gray-300 rounded-2xl">作品分類一</div>
               <div className="w-full h-[84px] bg-gray-300 rounded-2xl">作品分類二</div>
-              <div className="w-full h-[84px] bg-gray-300 rounded-2xl">作品分類三</div>
+              <div className="w-full h-[84px] bg-gray-300 rounded-2xl">作品分類三</div> */}
             </div>
 
           </div>
