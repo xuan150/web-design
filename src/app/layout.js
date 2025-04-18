@@ -54,7 +54,7 @@ export default function RootLayout({ children }) {
             {/* Image src={AvatarImg} alt="avatar" className="w-[80px] h-[80px] justify-center items-center" */}
             <h1 className="mt-4 text-[#334155] text-xl font-semibold">張芷瑄</h1>
             <p className="max-w-[380px] text-center text-[#475569] text-[14px] mt-0.5">
-              喜歡天馬行空的水星水瓶人
+              天馬行空的水星水瓶人
             </p>
 
             {/* 社群連結*/}

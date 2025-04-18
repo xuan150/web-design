@@ -1,11 +1,10 @@
 import Skill1 from "@/image/figma.svg";
-import AvatarImg from "@/../public/avatar.jpg";
-// import { FaReact, FaFigma} from "react-icons/fa";
-// import { SiNextdotjs, SiTailwindcss, SiBlender, SiArduino } from "react-icons/si";
+import Blender1 from "@/image/nofaceman.png";
+import Blender2 from "@/image/bird.png"
 
 export default function About() {
   return (
-    <div className="w-full h-full bg-[#DFF3FF] flex flex-col justify-start items-center rounded-2xl py-12 px-10 overflow-auto">
+    <div className="w-full h-full bg-[#DFF3FF] flex flex-col items-center rounded-2xl py-12 px-10 overflow-y-scroll">
       <div className="w-full mb-7">
         <h1 className="text-3xl font-black text-[#334155]">About Me</h1>
         {/* <h4 className="mt-2 mb-6 text-[#475569]">
@@ -14,40 +13,75 @@ export default function About() {
       </div>
 
       <div className="w-full flex flex-wrap gap-8 mb-8">
-        <div className="flex flex-col grow justify-between">
-          <div className="h-[64px] flex text-[16px] font-medium mb-4" >
-            本ENFP 大寫的社(會)恐(怖)分子 喜歡玩遊戲跟隨筆撇撇，討厭一成不變的條條框框
+        <div className="flex flex-col grow justify-between gap-4">
+          <div className="w-[600px] flex flex-col text-[16px] font-medium gap-4 tracking-wide leading-normal" >
+            <p>
+              本ENFP 大寫的社(會)恐(怖)分子 喜歡玩遊戲跟隨筆撇撇，討厭一成不變的條條框框。
+            </p>
+            <p>
+              日常喜歡走走看看，相信很酷的東西能夠激發靈感創作，比起證據更細歡感覺(當然學術時還是會調查後拿數據說服人啦(ㆆᴗㆆ))。
+            </p>
+            <p>
+              粗淺學過很多軟體和工具，不敢說專精但基本都會，最近為了沒有超專特長而在苦惱職涯中。
+              目前對繪圖、UIUX跟建模最有興趣，但考慮到社會出路不得不學點 coding ( ´•̥×•̥` )。夢想是可以靠接案過活YA。
+            </p>
+            <p>
+              超級甜點控，但在甜食和臉黃中游移不定，希望有能解決這種問題的神仙產品我一定愛爆、、、 
+            </p>
           </div>
 
-          {/* 下方四個方塊 */}
-          <div className="flex flex-wrap gap-4 mt-auto">
-            <img src={AvatarImg.jpg} alt="photo1" className="w-[64px] h-[64px] object-cover rounded-md bg-gray-300" />
-            <img src={AvatarImg.jpg} alt="photo1" className="w-[64px] h-[64px] object-cover rounded-md bg-gray-300" />
-            <img src={AvatarImg.jpg} alt="photo1" className="w-[64px] h-[64px] object-cover rounded-md bg-gray-300" />
-            <img src={AvatarImg.jpg} alt="photo1" className="w-[64px] h-[64px] object-cover rounded-md bg-gray-300" />
+          <div className="flex flex-wrap gap-4 mt-4">
+            <img src={Blender1.src} alt="photo1" className="w-[150px] h-[128px] object-cover rounded-md bg-gray-300" />
+            <img src={Blender2.src} alt="photo1" className="w-[150px] h-[128px] object-cover rounded-md bg-gray-300" />
+            <img src={Blender1.src}  className="w-[150px] h-[128px] object-cover rounded-md bg-gray-300" />
+            <img src={Blender2.src}  className="w-[150px] h-[128px] object-cover rounded-md bg-gray-300" />
           </div>
         </div>
 
         {/* <div className="">aaa</div> */}
 
-        <div className="bg-[#F8FAFC] w-[220px] h-[300px] rounded-2xl p-6 flex flex-col items-ed gap-4">
-          <h3 className="text-xl font-semibold mb-2">skills</h3>
+        <div className="bg-[#F8FAFC] w-[220px] rounded-2xl p-6 flex flex-col items-end gap-4 border-2 border-[#abb9c8]">
+          <h3 className="text-[14px] font-semibold">skills</h3>
           <div className="flex flex-wrap gap-2">
-            
-            <div className="inline-flex items-center justify-center border-2 border-[#64748B] rounded-full px-4 py-2 text-[#64748B] font-bold text-[12px]">Figma</div>
             <div className="inline-flex items-center justify-center border-2 border-[#64748B] rounded-full px-4 py-2 text-[#64748B] font-bold text-[12px]">Canva</div>
             <div className="inline-flex items-center justify-center border-2 border-[#64748B] rounded-full px-4 py-2 text-[#64748B] font-bold text-[12px]">Blender</div>
-            <div className="inline-flex items-center justify-center border-2 border-[#64748B] rounded-full px-4 py-2 text-[#64748B] font-bold text-[12px]">R</div>
+            <div className="inline-flex items-center justify-center border-2 border-[#64748B] rounded-full px-4 py-2 text-[#64748B] font-bold text-[12px]">Figma</div>
             <div className="inline-flex items-center justify-center border-2 border-[#64748B] rounded-full px-4 py-2 text-[#64748B] font-bold text-[12px]">Python</div>
-            <div className="inline-flex items-center justify-center border-2 border-[#64748B] rounded-full px-4 py-2 text-[#64748B] font-bold text-[12px]">JavaScript</div>
+            <div className="inline-flex items-center justify-center border-2 border-[#64748B] rounded-full px-4 py-2 text-[#64748B] font-bold text-[12px]">R</div>
             <div className="inline-flex items-center justify-center border-2 border-[#64748B] rounded-full px-4 py-2 text-[#64748B] font-bold text-[12px]">C#</div>
+            <div className="inline-flex items-center justify-center border-2 border-[#64748B] rounded-full px-4 py-2 text-[#64748B] font-bold text-[12px]">C</div>
+            <div className="inline-flex items-center justify-center border-2 border-[#64748B] rounded-full px-4 py-2 text-[#64748B] font-bold text-[12px]">JavaScript</div>
+            <div className="inline-flex items-center justify-center border-2 border-[#64748B] rounded-full px-4 py-2 text-[#64748B] font-bold text-[12px]">CSS</div>
+            <div className="inline-flex items-center justify-center border-2 border-[#64748B] rounded-full px-4 py-2 text-[#64748B] font-bold text-[12px]">HTML</div>
+            <div className="inline-flex items-center justify-center border-2 border-[#64748B] rounded-full px-4 py-2 text-[#64748B] font-bold text-[12px]">NextJS</div>
           </div>
         </div>
         {/* <div className="w-[40px] h-[40px] rounded-4xl flex items-center gap-2  border-black border-1"></div> */}
       </div>
 
-      <div className="w-full h-[120px] bg-gray-200 rounded-md flex items-center justify-center text-gray-500 text-lg">
-        經歷區塊
+      <div className="w-full bg-[#F8FAFC] rounded-2xl flex flex-col items-center justify-center text-[16px] border-2 border-[#abb9c8]">
+        <p>經歷區塊</p>
+        <p>經歷區塊</p>
+        <p>經歷區塊</p>
+        <p>經歷區塊</p>
+        <p>經歷區塊</p>
+        <p>經歷區塊</p>
+        <p>經歷區塊</p>
+        <p>經歷區塊</p>
+        <p>經歷區塊</p>
+        <p>經歷區塊</p>
+        <p>經歷區塊</p>
+        <p>經歷區塊</p>
+        <p>經歷區塊</p>
+        <p>經歷區塊</p>
+        <p>經歷區塊</p>
+        <p>經歷區塊</p>
+        <p>經歷區塊</p>
+        <p>經歷區塊</p>
+        <p>經歷區塊</p>
+        <p>經歷區塊</p>
+        <p>經歷區塊</p>
+        <p>經歷區塊</p>
       </div>
 
 

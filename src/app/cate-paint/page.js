@@ -76,7 +76,7 @@ export default function CatePaint() {
           ></div>
 
           <div className="absolute inset-0 flex items-center justify-center">
-            <div className="bg-white/50 backdrop-blur-md opacity-0 group-hover:opacity-100 transition duration-300 
+            <div className="bg-white/70 backdrop-blur-sm opacity-0 group-hover:opacity-100 transition duration-300 
             rounded-2xl p-4 w-3/4 text-center text-[14px] text-black font-semibold">
               先以p5.js的隨機粒子系統生成基礎圖樣，之後挑選最有意境的一張在平板上做繪圖加工，變成一幅獨一無二的畫。
             </div>
@@ -93,7 +93,7 @@ export default function CatePaint() {
           ></div>
 
           <div className="absolute inset-0 flex items-center justify-center">
-            <div className="bg-white/50 backdrop-blur-md opacity-0 group-hover:opacity-100 transition duration-300 
+            <div className="bg-white/70 backdrop-blur-sm opacity-0 group-hover:opacity-100 transition duration-300 
             rounded-2xl p-4 w-3/4 text-center text-[14px] text-black font-semibold">
               某堂藝術與社會學結合的課的啟發，把現代社會意涵與某個繪畫派系的風格融合於一。
             </div>
@@ -110,7 +110,7 @@ export default function CatePaint() {
           ></div>
 
           <div className="absolute inset-0 flex items-center justify-center">
-            <div className="bg-white/50 backdrop-blur-md opacity-0 group-hover:opacity-100 transition duration-300 
+            <div className="bg-white/70 backdrop-blur-sm opacity-0 group-hover:opacity-100 transition duration-300 
             rounded-2xl p-4 w-3/4 text-center text-[14px] text-black font-semibold">
               很喜歡的遊戲角色，因為太愛了真的忍不住自己提筆畫畫滿足更多想像、完善背景故事。比任何人都要期待它真實存在。
             </div>
@@ -127,7 +127,7 @@ export default function CatePaint() {
           ></div>
 
           <div className="absolute inset-0 flex items-center justify-center">
-            <div className="bg-white/50 backdrop-blur-md opacity-0 group-hover:opacity-100 transition duration-300 
+            <div className="bg-white/70 backdrop-blur-sm opacity-0 group-hover:opacity-100 transition duration-300 
             rounded-2xl p-4 w-3/4 text-center text-[14px] text-black font-semibold">
               某天達賢外面傍晚的照片臨摹，因為顏色很好看所以畫了。
             </div>
@@ -144,7 +144,7 @@ export default function CatePaint() {
           ></div>
 
           <div className="absolute inset-0 flex items-center justify-center">
-            <div className="bg-white/50 backdrop-blur-md opacity-0 group-hover:opacity-100 transition duration-300 
+            <div className="bg-white/70 backdrop-blur-sm opacity-0 group-hover:opacity-100 transition duration-300 
             rounded-2xl p-4 w-3/4 text-center text-[14px] text-black font-semibold">
               很久之前為了鼓勵自己堅持讀書終究會有回報而摸魚的打氣圖。
             </div>
