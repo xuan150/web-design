@@ -3,7 +3,7 @@ import Image from 'next/image'
 // import AvatarImg from "@/../public/avatar.jpg";
 import HeartImg from '@/../public/heart.png'
 import { useState, useEffect, useRef } from 'react'
-import BlurText from "../component/BlurText"
+import TrueFocus from "../component/TrueFocus"
 
 export default function Home() {
   const [heart, setHeart] = useState(0)
@@ -49,12 +49,12 @@ export default function Home() {
         {/* 用法：聯絡 chaotingchen10@gmail.com aka 妳的嚕嚕寶 */}
       {/* </div> */}
 
-      <BlurText
-        text="boo boo boo"
-        delay={150}
-        animateBy="words"
-        direction="top"
-        onAnimationComplete={handleAnimationComplete}
+      <TrueFocus
+        sentence="boo boo boo"
+        manualMode={true}
+        blurAmount={5}
+        borderColor="yellow"
+        animationDuration={0.5}
         className="text-2xl mb-4"
       />
 
