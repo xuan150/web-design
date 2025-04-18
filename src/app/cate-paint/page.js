@@ -64,9 +64,9 @@ export default function CatePaint() {
 
           </div> */}
 
-      <div className="grid sm:grid-cols-9 sm:grid-rows-5 w-full h-full mt-3 gap-4">
+      <div className="grid md:grid-cols-9 md:grid-rows-5 w-full h-full mt-3 gap-4">
 
-        <div className="col-span-3 row-span-5 relative group">
+        <div className="md:col-span-3 md:row-span-5 relative group">
           <div className="w-full h-full rounded-2xl"
             style={{
               backgroundImage: `url(${Painting1.src})`,
@@ -83,7 +83,7 @@ export default function CatePaint() {
           </div>
         </div>
 
-        <div className="col-span-2 row-span-3 relative group">
+        <div className="md:col-span-2 md:row-span-3 relative group">
           <div className="w-full h-full rounded-2xl"
             style={{
               backgroundImage: `url(${Painting2.src})`,
@@ -100,7 +100,7 @@ export default function CatePaint() {
           </div>
         </div>
 
-        <div className="col-span-4 row-span-3 relative group">
+        <div className="md:col-span-4 md:row-span-3 relative group">
           <div className="w-full h-full rounded-2xl"
             style={{
               backgroundImage: `url(${Painting3.src})`,
@@ -117,7 +117,7 @@ export default function CatePaint() {
           </div>
         </div>
 
-        <div className="col-span-4 row-span-2 relative group">
+        <div className="md:col-span-4 md:row-span-2 relative group">
           <div className="w-full h-full rounded-2xl"
             style={{
               backgroundImage: `url(${Painting4.src})`,
@@ -134,7 +134,7 @@ export default function CatePaint() {
           </div>
         </div>
 
-        <div className="col-span-2 row-span-2 relative group">
+        <div className="md:col-span-2 md:row-span-2 relative group">
           <div className="w-full h-full rounded-2xl"
             style={{
               backgroundImage: `url(${Painting5.src})`,

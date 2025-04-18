@@ -9,6 +9,7 @@ import Web from "@/../public/web.svg"
 import Home from "@/../public/home.svg"
 import Gmail from "@/../public/gmail.svg"
 import MagicCursor from "../component/MagicCursor"
+import NavLink from "@/component/NavLink"
 
 
 const geistSans = Geist({
@@ -68,8 +69,7 @@ export default function RootLayout({ children }) {
                 <div><Image src={Web} height={26} width={26} alt="my weebly" /></div>
               </a>
               <a href="mailto:waxd369@gmail.com">
-                a
-                {/* <div><Image src={Gmail} height={26} width={26} alt="send me letter" /></div> */}
+                <div><Image src={Gmail} height={26} width={26} alt="send me letter" /></div>
               </a>
               {/* <a href="https://google.com" target="_blank">
                 <div className="bg-gray-200 w-[40px] h-[40px] rounded-4xl"></div>
@@ -82,21 +82,23 @@ export default function RootLayout({ children }) {
             {/* 頁面切換*/}
             {/* flex-col轉換排列方式 */}
             <div className="w-full flex flex-col gap-4 my-3">
-              <Link href="/about">
+              <NavLink href="/about">
                 { /*<div className="w-full h-[84px] bg-gray-300 rounded-2xl">about</div> */}
-                <div className={`w-full h-[84px] bg-[#F8FAFC] rounded-2xl flex justify-center items-center text-[#64748B] font-black
-                   transition-all duration-300 hover:bg-[#abb9c8] hover:scale-105 hover:shadow-md hover:text-[#F8FAFC]`}>ABOUT ME 小檔案</div>
-              </Link>
+               ABOUT ME 小檔案
+              </NavLink>
 
-              <Link href="/cate-paint">
-                <div className="w-full h-[84px] bg-[#F8FAFC] rounded-2xl flex justify-center items-center text-[#64748B] font-black
-                 transition-all duration-300 hover:bg-[#abb9c8] hover:scale-105 hover:shadow-md hover:text-[#F8FAFC]">PAINTING 圖堆</div>
-              </Link>
+              <NavLink href="/cate-paint">
+                PAINTING 圖堆
+              </NavLink>
 
-              <Link href="/cate-blender">
+              <NavLink href="/cate-project">
+                PROJECT 專案
+              </NavLink>
+
+              {/* <Link href="/cate-blender">
                 <div className="w-full h-[84px] bg-[#F8FAFC] rounded-2xl flex justify-center items-center text-[#64748B] font-black
                  transition-all duration-300 hover:bg-[#abb9c8] hover:scale-105 hover:shadow-md hover:text-[#F8FAFC]">PROJECT 專案</div>
-              </Link>
+              </Link> */}
 
               {/* <div className="w-full h-[84px] bg-gray-300 rounded-2xl">作品分類三</div>
               <div className="w-full h-[84px] bg-gray-300 rounded-2xl">作品分類一</div>
