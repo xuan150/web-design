@@ -12,9 +12,9 @@ export default function About() {
         </h4> */}
       </div>
 
-      <div className="w-full flex flex-wrap gap-8 mb-8">
-        <div className="flex flex-col grow justify-between gap-4">
-          <div className="w-[600px] flex flex-col text-[16px] font-medium gap-4 tracking-wide leading-normal" >
+      <div className="w-full flex flex-col xl:flex-row gap-8 mb-8">
+        <div className="flex flex-col justify-between gap-4">
+          <div className="flex flex-col text-[16px] font-medium gap-4 tracking-wide leading-normal" >
             <p>
               本ENFP 大寫的社(會)恐(怖)分子 喜歡玩遊戲跟隨筆撇撇，討厭一成不變的條條框框。
             </p>
@@ -30,7 +30,7 @@ export default function About() {
             </p>
           </div>
 
-          <div className="flex flex-wrap gap-4 mt-4">
+          <div className="flex flex-wrap xl:flex-nowrap gap-4 mt-4">
             <img src={Blender1.src} alt="photo1" className="w-[150px] h-[128px] object-cover rounded-md bg-gray-300" />
             <img src={Blender2.src} alt="photo1" className="w-[150px] h-[128px] object-cover rounded-md bg-gray-300" />
             <img src={Blender1.src}  className="w-[150px] h-[128px] object-cover rounded-md bg-gray-300" />
@@ -38,9 +38,7 @@ export default function About() {
           </div>
         </div>
 
-        {/* <div className="">aaa</div> */}
-
-        <div className="bg-[#F8FAFC] w-[220px] rounded-2xl p-6 flex flex-col items-end gap-4 border-2 border-[#abb9c8]">
+        <div className="bg-[#F8FAFC] min-w-[200px] h-fit rounded-2xl p-6 flex flex-col items-end gap-4 border-2 border-[#abb9c8]">
           <h3 className="text-[14px] font-semibold">skills</h3>
           <div className="flex flex-wrap gap-2">
             <div className="inline-flex items-center justify-center border-2 border-[#64748B] rounded-full px-4 py-2 text-[#64748B] font-bold text-[12px]">Canva</div>
@@ -56,32 +54,28 @@ export default function About() {
             <div className="inline-flex items-center justify-center border-2 border-[#64748B] rounded-full px-4 py-2 text-[#64748B] font-bold text-[12px]">NextJS</div>
           </div>
         </div>
-        {/* <div className="w-[40px] h-[40px] rounded-4xl flex items-center gap-2  border-black border-1"></div> */}
       </div>
 
-      <div className="w-full bg-[#F8FAFC] rounded-2xl flex flex-col items-center justify-center text-[16px] border-2 border-[#abb9c8]">
-        <p>經歷區塊</p>
-        <p>經歷區塊</p>
-        <p>經歷區塊</p>
-        <p>經歷區塊</p>
-        <p>經歷區塊</p>
-        <p>經歷區塊</p>
-        <p>經歷區塊</p>
-        <p>經歷區塊</p>
-        <p>經歷區塊</p>
-        <p>經歷區塊</p>
-        <p>經歷區塊</p>
-        <p>經歷區塊</p>
-        <p>經歷區塊</p>
-        <p>經歷區塊</p>
-        <p>經歷區塊</p>
-        <p>經歷區塊</p>
-        <p>經歷區塊</p>
-        <p>經歷區塊</p>
-        <p>經歷區塊</p>
-        <p>經歷區塊</p>
-        <p>經歷區塊</p>
-        <p>經歷區塊</p>
+      <div className="w-full bg-[#F8FAFC] rounded-2xl flex flex-col items-center justify-center text-[16px] border-2 border-[#abb9c8] p-6 gap-4">
+        <section className="w-full px-3 rounded-md flex flex-col">
+          <h2 className="text-xl font-semibold">Education</h2>
+            <strong>National ChengChi University</strong>
+            <p>Bachelor's of Science in Digital Content and Techonologies</p>
+            <p>Double major in Sociology</p>
+        </section>
+
+        <hr className="w-[97%] mx-auto border-t-2 border-[#D1D5DB]" style={{borderTop:"dashed 2px"}} />
+
+        <section className="w-full px-3 rounded-md flex flex-col">
+          <h2 className="text-xl font-semibold">Work Experience</h2>
+            <strong>Freelance UI/UX Designer</strong>
+            <p>Self-Employed</p>
+            <p>Double major in Sociology</p>
+          <ul className="list-disc pl-5">
+            <li>Conducted user research and usability testing, leading to data-driven design decisions that enhanced product usability.</li>
+            <li>Designed user-friendly interfaces and interactive prototypes for 2 client projects, improving user engagement.</li>
+          </ul>
+        </section>
       </div>
 
 
